@@ -135,10 +135,8 @@ a{
   
   .inicio .content {
     text-align: center;
-    color: #fff;
     font-weight: 900;
     font-size: 4.5rem;
-    color: #fff;
   }
   
   
@@ -154,6 +152,16 @@ a{
     border-bottom-right-radius: 10%;
     filter: drop-shadow(100);
     background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  }
+
+  .hotel {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn{
+    background-color: #000;
+    color: white;
   }
   
   .hotel .box-container .box {
@@ -212,7 +220,6 @@ a{
   .hotel .box-container .content .btn {
     display: inline-block;
     margin-top: 1.4rem;
-    background: #fcd404;
     padding: .6rem 3rem;
     border-radius: 50rem;
     cursor: pointer;
