@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospedagem
+  </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/hospedagem.css">
+</head>
+
+<body>
+
+  <!-- começo menu -->
+  <header class="header-page">
+    <div class="container">
+      <nav class="navbar">
+        <a class="nav-branding"><img src="img/logo.png" alt="Logo"></a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#recomendados" class="nav-link">Lugares</a>
+          </li>
+          <li class="nav-item">
+            <a href="#dicas" class="nav-link">Hospedagem</a>
+          </li>
+          <li class="nav-item">
+            <a href="#reviews" class="nav-link">Recomendações</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- fim menu -->
+
+  <!-- SEÇÃO INÍCIO -->
+  <section class="inicio" id="inicio">
+    <div class="content">
+      <h1>Hospedagem</h1>
+    </div>
+    <div class="image-container">
+      <img src="img/imagem 1.jpg" Imagem de fundo dos prédios na Avenida Paulista, em São Paulo">
+    </div>
+  </section>
+
+  <!---->
+  <!-- Opção de Viagem -->
+  <section class="filtro-busca">
+    <form class="filtro-busca__form">
+      <label class="filtro-busca__form-search">Aonde você vai?
+        <input type="search" required>
+      </label>
+
+      <fieldset>
+        <legend>Tipo de viagem</legend>
+
+        <div class="filtro-busca__form-tipo">
+          <label>
+            <input type="radio" name="tipo-viagem" checked> Viagem <i class="fa-solid fa-plane"></i>
+          </label>
+          <label>
+            <input type="radio" name="tipo-viagem"> Trabalho <i class="fa-solid fa-briefcase"></i>
+          </label>
+          <label>
+            <input type="radio" name="tipo-viagem"> Turismo <i class="fa-solid fa-map-location-dot"></i>
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset class="filtro-busca__form-data">
+        <label class="filtro-busca__form-data--inicial">Data inicial
+          <input type="date" required>
+        </label>
+        <label class="filtro-busca__form-data--final">Data final
+          <input type="date" required>
+        </label>
+      </fieldset>
+
+      <label class="filtro-busca__form-qtde">Quartos e hóspedes
+        <input type="text" value="1 quarto, 2 hóspedes" readonly>
+      </label>
+
+      <button class="filtro-busca__form-botao botao" type="submit">Buscar <i
+          class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+  </section>
+  <!-- hotel 1 -->
+  <section class="hotel">
+    <div class="box-container">
+      <div class="box">
+        <img src="img/Hotel/Hotel 1.png"
+          alt="Foto de um quarto com uma cama de casal em frente a uma televisão. Ao fundo, há paredes cor de creme e uma janela com vista para São Paulo"
+          class="image">
+        <div class="content">
+          <h2 class="title">Hotel Mercure São Paulo Jardins</h2>
+          <div class="estrelas">
+            <span class="review">4.7/5</span>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <p>Localizado a 3,1km do Parque do Ibirapuera.</p>
+          <p class="preco"> Diárias de R$ 250,00 a R$ 500,00</p>
+          <h3 class="indisponivel">Indisponivel para esta data</h3>
+
+          <div class="recomendacoes">
+            <h2>Descrição</h2>
+            <p> Quarto com cama de casal queen size, ducha, TV a cabo, wi-fi de alta velocidade, mesa de trabalho,
+              frigobar, opção de almofadas
+            </p>
+
+            <label for="modalexemplo" class="btn">Localização</label>
+            <input type="checkbox" id="modalexemplo" class="checkboxmodal">
+
+            <div class="modal">
+              <label for="modalexemplo" class="fecharmodal">X</label>
+              <div class="conteudomodal">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.2148623397666!2d-46.6658838252501!3d-23.560725461567753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59d2505a7d1b%3A0x25e5530123a865cf!2sMercure%20S%C3%A3o%20Paulo%20Jardins!5e0!3m2!1spt-BR!2sbr!4v1681595726115!5m2!1spt-BR!2sbr"
+                  width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+
+            <label for="" class="btn"><a href="./Pages/hotel/Mercure.html">Ver mais</a></label>
+            <input type="" id="" class="checkboxmodal">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- hotel 2 -->
+    <div class="box-container">
+      <div class="box">
+        <img src="img/Hotel/Hotel 2.jpg" alt="Foto do Hotel Bourbon, frente para rua" class="image">
+        <div class="content">
+          <h2 class="title">Bourbon Convention Hotel</h2>
+          <div class="estrelas">
+            <span class="review">5.0/5</span>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star-stroke"></i>
+          </div>
+          <p>Localizado a 100m do Shopping Ibirapuera.</p>
+
+          <p class="preco"> Diárias de R$ 250,00 a R$ 500,00</p>
+          <h3 class="indisponivel">Indisponivel para esta data</h3>
+
+          <div class="recomendacoes">
+            <h2>Descrição</h2>
+            <p> Quarto com cama de casal queen size, ducha, TV a cabo, wi-fi de alta velocidade, mesa de trabalho,
+              frigobar, opção de almofadas
+            </p>
+
+            <!-- área do modal1 - popup -->
+
+            <label for="modalexemplo1" class="btn">Localização</label>
+            <input type="checkbox" id="modalexemplo1" class="checkboxmodal1">
+
+            <div class="modal1">
+              <label for="modalexemplo1" class="fecharmodal1">X</label>
+              <div class="conteudomodal1">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.881883763567!2d-46.66918492557382!3d-23.608568678767377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a08c3b44cb7%3A0x988947deddbd766!2sBourbon%20Convention!5e0!3m2!1spt-BR!2sbr!4v1682268739259!5m2!1spt-BR!2sbr"
+                  width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+            <label for="" class="btn"><a href="./Pages/hotel/Bourbon.html">Ver mais</a></label>
+            <input type="" id="" class="checkboxmodal">
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <!-- hotel 3 -->
+    <div class="box-container">
+      <div class="box">
+        <img src="img/Hotel/Hotel 3.jpg"
+          alt="Foto do Hotel Tianon um quarto com uma cama de casal em frente a uma televisão. Ao fundo, há paredes cor de creme e uma janela com vista para São Paulo"
+          class="image">
+        <div class="content">
+          <h2 class="title">Hotel Trianon Paulista</h2>
+          <div class="estrelas">
+            <span class="review">4.5/5</span>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fa-regular fa-star-half-stroke"></i>
+          </div>
+          <p>Localizado a 2 quarteirões do MASP.</p>
+
+          <p class="preco"> Diárias de R$ 300,00 a R$ 600,00</p>
+          <h3 class="indisponivel">Indisponivel para esta data</h3>
+
+          <div class="recomendacoes">
+            <h2>Descrição</h2>
+            <p> Quarto com cama de casal queen size, ducha, TV a cabo, wi-fi de alta velocidade, mesa de trabalho,
+              frigobar, opção de almofadas</p>
+
+            <!-- início modal2 -->
+
+            <label for="modalexemplo2" class="btn">Localização</label>
+            <input type="checkbox" id="modalexemplo2" class="checkboxmodal2">
+
+            <div class="modal2">
+              <label for="modalexemplo2" class="fecharmodal2">X</label>
+              <div class="conteudomodal2">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1074739984!2d-46.662719027809615!3d-23.56458323193823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cf0946a8ad%3A0xc29d83e47f7a6726!2sHotel%20Trianon%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1682268867410!5m2!1spt-BR!2sbr"
+                  width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+
+            </div>
+
+            <label for="" class="btn"><a href="./Pages/hotel/Trianon.html">Ver mais</a></label>
+            <input type="" id="" class="checkboxmodal">
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Scroll Javasprit-->
+
+  <script src="./js/scroll.js"></script>
+
+  <!-- Menu Javascript -->
+  <script src="./js/menu.js"></script>
+
+</body>
+
+</html>
